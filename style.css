@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: rgb(58, 57, 57);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.converter{
+    width: 100%;
+    height: 100vh;    
+
+} 
+header{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+header h2{
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 25%;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.grams{
+    width: 25%;
+    height: 55px;
+    background: #0075E2;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 2px 2px 12px rgba(41, 226, 16, 0.2);
+}
+.grams h2{
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 5px; 
+}
+.kilograms{
+    width: 25%;
+    height: 55px;
+    background: #5AAE5F;
+    border-radius: 5px;
+    margin: 5px;
+}
+.kilograms h2{
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 5px; 
+}
+.ounces{
+    width: 25%;
+    height: 55px;
+    background: #E8644F;
+    border-radius: 5px;
+    margin: 5px;
+}
+.ounces h2{
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 5px; 
+}
+p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 5px; 
+}
